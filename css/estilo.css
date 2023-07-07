@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5ffca1;
+    box-shadow: 0 5px 5px #70bb90;
+
+}
+
+header img {
+    width: 250px;
+}
+
+a:hover {
+    background-color: #6df06d;
+    color: rgb(243, 194, 102);
+    padding: 10px;
+}
+
+a:active {
+    background-color: rgb(7, 95, 92);
+    color: black;
+}
+
+ul {
+    font-family: cursive;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+
+}
+
+a {
+    margin: 15px;
+    color: #080808;
+    text-decoration: none;
+    font-family: cursive;
+
+}
+
+h1 {
+    color: #eef3f3;
+    padding: 2%;
+    text-decoration: overline;
+    font-size: 45px;
+
+}
+
+
+.locales {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(6, 72, 51);
+    margin: 18px;
+    list-style-type: none;
+}
+
+.locales p {
+    display: flex;
+    font-size: 15px;
+    margin: 2px;
+}
+
+.local1 {
+    width: 350px;
+   margin: 15px;
+}
+
+.local2 {
+    width: 350px;
+    margin: 15px;
+}
+
+.local3 {
+    width: 350px;
+    margin: 15px;
+}
+.img-thumbnail{
+    width: 80px;
+    background-color: #5ffca1;
+    margin: 15px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+   align-items:flex-start;
+    --bs-accordion-active-color: #fff;
+    --bs-accordion-active-bg: #c4e8c2;
+}
+p {
+    font-size: larger;
+    font-family: sans-serif;
+    background-color: #c4e8c2;
+    padding: 5%;
+    text-align: center;
+}
+
+.foto-principal {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.foto1 {
+    width: 350px;
+}
+
+.foto2 {
+    width: 500px;
+}
+
+.foto3 {
+    width: 350px;
+}
+
+.foto4 {
+    width: 500px;
+}
+
+.foto5 {
+    width: 350px;
+}
+
+.foto6 {
+    width: 350px;
+}
+
+.lista-pie {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: #5ffca1;
+    color: azure;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.pie {
+    background-color: #5ffca1;
+    color: azure;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.grilla-conocenos {
+    background-color: #e1f3e0;
+    border: 2px #6bbd99 solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.p-conocenos {
+    margin: 15px 0;
+}
+.carousel-inner{
+    margin: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.grilla-productos {
+    background-color: #c4e8c2;
+    border: 1px #6bbd99 solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grilla-productos div {
+    background-color: #c4e8c2;
+    border: 1px #6bbd99 solid;
+}
+
+.grilla-productos img {
+    padding: 5%;
+    width: 400px;
+}
