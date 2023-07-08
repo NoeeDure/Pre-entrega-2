@@ -68,7 +68,7 @@ h1 {
 
 .local1 {
     width: 350px;
-   margin: 15px;
+    margin: 15px;
 }
 
 .local2 {
@@ -80,7 +80,8 @@ h1 {
     width: 350px;
     margin: 15px;
 }
-.img-thumbnail{
+
+.img-thumbnail {
     width: 80px;
     background-color: #5ffca1;
     margin: 15px;
@@ -91,20 +92,27 @@ h1 {
     flex-direction: column;
     --bs-accordion-active-color: #fff;
     --bs-accordion-active-bg: #c4e8c2;
- }
- .ofertas{
-    background-color:#6bbd99;
+}
+
+.ofertas {
+    background-color: #6bbd99;
     color: white;
     text-transform: uppercase;
     text-align: center;
- }
-.info-cliente{
-    display: flex;
-    flex-direction:column;
- align-items: center;
- padding: 10px;
- border-radius: 15px;
+    font-family:cursive;
+    font-size: 12px;
 }
+
+.info-cliente {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    font-family:cursive;
+    font-size: 10px;
+}
+
 p {
     font-size: 17px;
     font-family: sans-serif;
@@ -173,7 +181,8 @@ p {
 .p-conocenos {
     margin: 15px 0;
 }
-.ancho-modificado{
+
+.ancho-modificado {
     width: 600px;
     margin: 25px;
     padding: 10px;
