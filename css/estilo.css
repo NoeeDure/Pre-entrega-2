@@ -91,6 +91,19 @@ h1 {
     flex-direction: column;
     --bs-accordion-active-color: #fff;
     --bs-accordion-active-bg: #c4e8c2;
+ }
+ .ofertas{
+    background-color:#6bbd99;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+ }
+.info-cliente{
+    display: flex;
+    flex-direction:column;
+ align-items: center;
+ padding: 10px;
+ border-radius: 15px;
 }
 p {
     font-size: 17px;
@@ -104,6 +117,7 @@ p {
     width: 1200px;
     display: flex;
     align-items: center;
+    margin: auto;
 
 }
 
@@ -159,11 +173,10 @@ p {
 .p-conocenos {
     margin: 15px 0;
 }
-.carousel-inner{
-    margin: 10px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-around;
+.ancho-modificado{
+    width: 600px;
+    margin: 25px;
+    padding: 10px;
 }
 
 .grilla-productos {
