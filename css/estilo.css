@@ -89,14 +89,13 @@ h1 {
 .accordion {
     display: flex;
     flex-direction: column;
-   align-items:flex-start;
     --bs-accordion-active-color: #fff;
     --bs-accordion-active-bg: #c4e8c2;
 }
 p {
-    font-size: larger;
+    font-size: 17px;
     font-family: sans-serif;
-    background-color: #c4e8c2;
+    /* background-color: #c4e8c2; */
     padding: 5%;
     text-align: center;
 }
