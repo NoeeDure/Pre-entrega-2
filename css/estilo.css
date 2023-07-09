@@ -62,8 +62,9 @@ h1 {
 
 .locales p {
     display: flex;
-    font-size: 15px;
+    font-size: 13px;
     margin: 2px;
+    background-color:#fef6e4 ;
 }
 
 .local1 {
@@ -116,7 +117,7 @@ h1 {
 p {
     font-size: 17px;
     font-family: sans-serif;
-    /* background-color: #c4e8c2; */
+    background-color: #c4e8c2;
     padding: 5%;
     text-align: center;
 }
@@ -157,14 +158,14 @@ p {
     display: flex;
     flex-direction: column;
     padding: 2%;
-    background-color: #5ffca1;
+    background-color: #004643;
     color: azure;
     font-family: sans-serif;
     font-size: 15px;
 }
 
 .pie {
-    background-color: #5ffca1;
+    background-color: #004643;
     color: azure;
     text-align: center;
     font-family: sans-serif;
@@ -189,7 +190,7 @@ p {
 }
 
 .grilla-productos {
-    background-color: #c4e8c2;
+    background-color: #abd1c6;
     border: 1px #6bbd99 solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
