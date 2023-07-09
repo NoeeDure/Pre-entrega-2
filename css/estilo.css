@@ -62,9 +62,18 @@ h1 {
 
 .locales p {
     display: flex;
-    font-size: 13px;
-    margin: 2px;
-    background-color:#fef6e4 ;
+    font-size: 12px;
+    background-color: #fef6e4;
+}
+
+.parrafito{
+    background-color: #6bbd99;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+   justify-content: center;
+    font-family: cursive;
+    font-size: 12px;
 }
 
 .local1 {
@@ -82,10 +91,11 @@ h1 {
     margin: 15px;
 }
 
-.img-thumbnail {
+.img-logo {
     width: 80px;
     background-color: #5ffca1;
-    margin: 15px;
+    padding: 0%;
+
 }
 
 .accordion {
@@ -100,7 +110,7 @@ h1 {
     color: white;
     text-transform: uppercase;
     text-align: center;
-    font-family:cursive;
+    font-family: cursive;
     font-size: 12px;
 }
 
@@ -110,14 +120,13 @@ h1 {
     align-items: center;
     padding: 10px;
     border-radius: 15px;
-    font-family:cursive;
+    font-family: cursive;
     font-size: 10px;
 }
 
 p {
-    font-size: 17px;
+    font-size: 20px;
     font-family: sans-serif;
-    background-color: #c4e8c2;
     padding: 5%;
     text-align: center;
 }
