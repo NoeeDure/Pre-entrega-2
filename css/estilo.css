@@ -65,15 +65,15 @@ h1 {
     font-size: 12px;
     background-color: #fef6e4;
     margin: auto;
-   justify-content: center;
+    justify-content: center;
 }
 
-.parrafito{
+.parrafito {
     background-color: #6bbd99;
     color: white;
     text-transform: uppercase;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     font-family: cursive;
     font-size: 12px;
 }
@@ -125,7 +125,7 @@ h1 {
     padding: 10px;
     border-radius: 15px;
     font-family: cursive;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 p {
@@ -143,33 +143,10 @@ p {
 
 }
 
-.foto1 {
-    width: 350px;
-}
-
-.foto2 {
-    width: 500px;
-}
-
-.foto3 {
-    width: 350px;
-}
-
-.foto4 {
-    width: 500px;
-}
-
-.foto5 {
-    width: 350px;
-}
-
-.foto6 {
-    width: 350px;
-}
-
 .lista-pie {
     display: flex;
     flex-direction: column;
+    text-align: center;
     padding: 2%;
     background-color: #004643;
     color: azure;
@@ -204,10 +181,9 @@ p {
 }
 
 .grilla-productos {
-    background-color: #abd1c6;
-    border: 1px #6bbd99 solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 5px;
 }
 
 .grilla-productos div {
@@ -218,5 +194,4 @@ p {
 .grilla-productos img {
     padding: 5%;
     width: 300px;
-  
 }
